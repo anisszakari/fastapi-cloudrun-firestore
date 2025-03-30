@@ -46,7 +46,7 @@ Ce projet est un exemple simple d'une API FastAPI qui utilise Firestore comme ba
    gcloud services enable run.googleapis.com firestore.googleapis.com
    ```
 
-2. Construisez et poussez l'image Docker :
+2. Build et Push l'image Docker sur Google Container Registry ou L'Artefact Registry :
    ```
    gcloud builds submit --tag gcr.io/PROJECT_ID/fastapi-api
    ```
